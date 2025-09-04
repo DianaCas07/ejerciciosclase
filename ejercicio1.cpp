@@ -80,7 +80,7 @@ void Menuservi(){
     switch (opcion)
     {
     case 1:
-    agregarProducto(product, totalProductos);
+    totalProductos = agregarProducto(product, totalProductos);
     break;
     
     case 2:
@@ -98,7 +98,7 @@ void Menuservi(){
     cout<<"Opcion invalida"<<endl;
     break;
     }
-    }while((opcion=!4));
+    }while((opcion!=4));
 }
 
 int main(){
