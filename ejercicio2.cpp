@@ -43,7 +43,9 @@ int main() {
     }
 
     cout << "Promedio de las materias: " << endl;
-    for (int j = 0; j < 5; j++) 
-
+    for (int j = 0; j < 5; j++) { 
+    cout << "Materia " << j + 1 << ": " << promMaterias[j] << endl;
+    }
     return 0;
+
 }
